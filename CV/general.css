@@ -1,0 +1,26 @@
+#titulos {
+    color: slateblue;
+    font-family: cursive;
+    background-color: thistle;
+    padding-left: 860px;
+}
+
+#foto{
+    width: 300px;
+    padding-left: 800px;
+}
+
+.subtitulos { 
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafos {
+    color: violet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contacto{
+    color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+}
