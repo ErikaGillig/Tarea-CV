@@ -4,7 +4,7 @@ background: -webkit-linear-gradient(-45deg,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,
 background: linear-gradient(135deg,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 color: slateblue;
-    font-family: cursive;
+    font-family:cursive;
     background-color: thistle;
     padding-left: 860px;
 }
@@ -46,14 +46,10 @@ padding-left: 860px;
 .parrafos {
     font-family: 'Barlow', sans-serif;
     color: violet;
-    font-style: normal;
+    
 }
 
-.contacto{
+.contacto {
     color: tomato;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.icono {
-    color: snow;
 }
