@@ -1,5 +1,9 @@
 #titulos {
-    color: slateblue;
+background: -moz-linear-gradient(-45deg,  #fcecfc 0%, #fba6e1 50%, #fd89d7 51%, #ff7cd8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+color: slateblue;
     font-family: cursive;
     background-color: thistle;
     padding-left: 860px;
@@ -10,14 +14,38 @@
     padding-left: 800px;
 }
 
-.subtitulos { 
+.subtitulos {
+    font-family: 'Abel', sans-serif;
     color: pink;
-    font-family: Arial, Helvetica, sans-serif;
+ 
+  
 }
 
+.subtitulodecontacto {
+
+background: #fcecfc;
+background: -moz-linear-gradient(-45deg,  #fcecfc 0%, #fba6e1 50%, #fd89d7 51%, #ff7cd8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+font-family: 'Abel', sans-serif;
+color:slateblue;
+padding-left: 860px;
+
+
+}
+
+.pelis { 
+    width: 400px;
+    column-count: 2;
+    column-gap: 20px;
+}
+    
+    
 .parrafos {
+    font-family: 'Barlow', sans-serif;
     color: violet;
-    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
 }
 
